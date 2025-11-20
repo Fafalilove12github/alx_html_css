@@ -1,6 +1,6 @@
 # alx_html_css Project
 
-This repository contains a collection of HTML and CSS files for the TechCon 2024 conference website. 
+This repository contains a collection of HTML and CSS files for my portfolio website. 
 
 ## Project Structure
 
