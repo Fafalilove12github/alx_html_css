@@ -33,3 +33,54 @@ header, footer {
 main {
     padding: 10px; /* Optional padding for the main content area */
 }
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ffffff; /* Change the background color */
+}
+
+/* Header styling */
+header {
+    background-color: #35424a; 
+    padding: 10px 0;
+}
+
+header ul {
+    list-style: none; 
+    padding: 0;
+}
+
+header li {
+    display: inline; 
+    margin: 0 15px;
+}
+
+header .logo {
+    font-size: 30px; /* Adjust size for the logo */
+    vertical-align: middle; /* Vertically center the logo */
+}
+
+/* Footer styling */
+footer {
+    background-color: #35424a;
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Article styling */
+article {
+    background-color: #f4f4f4; /* Light background for articles */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+}
+
+aside {
+    background-color: #e9ecef; /* Light grey for aside */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+}
