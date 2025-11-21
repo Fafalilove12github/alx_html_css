@@ -1,0 +1,65 @@
+/* General body styling */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+/* Header styling */
+header {
+    background-color: #35424a; /* Dark background for the header */
+    padding: 15px 0; /* Increased padding */
+    text-align: center; /* Center-align header content */
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    margin: 0 20px; /* More spacing between menu items */
+}
+
+header .logo {
+    font-size: 30px; /* Increase size for visibility */
+    vertical-align: middle;
+}
+
+/* Navigation links */
+nav a {
+    color: #ffffff; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+nav a:hover {
+    color: #e8491d; /* Change color on hover for interaction */
+}
+
+/* Article styling */
+article {
+    background-color: #ffffff; /* White background for the article */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Aside styling */
+aside {
+    background-color: #e9ecef; /* Light gray for aside */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    background-color: #35424a; /* Dark background for the footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
