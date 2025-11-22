@@ -308,3 +308,48 @@ body {
         width: calc(100% - 30px); /* One item per row on mobile */
     }
 }
+/* General FAQ Section Styling */
+.faq-section {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 60px 20px; /* Padding for spacing */
+    text-align: center; /* Center align text */
+    margin: 40px 0; /* Margin above and below */
+}
+
+/* FAQ Title */
+.faq-title {
+    font-size: 28px; /* Larger title font size */
+    color: #333; /* Dark text color */
+    margin-bottom: 30px; /* Spacing below title */
+}
+
+/* Individual FAQ Item */
+.faq-item {
+    background-color: #f9f9f9; /* Light background for each question */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    margin: 15px 0; /* Vertical margin */
+    padding: 20px; /* Padding inside each item */
+    text-align: left; /* Left-align text */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+/* FAQ Question Styling */
+.faq-question {
+    font-size: 20px; /* Question font size */
+    color: #333; /* Dark text color */
+    cursor: pointer; /* Pointer cursor for clickable questions */
+}
+
+/* FAQ Answer Styling */
+.faq-answer {
+    display: none; /* Hidden by default */
+    font-size: 16px; /* Answer font size */
+    color: #555; /* Subtle text color */
+    margin-top: 10px; /* Margin above answer */
+}
+
+/* Hover Effect */
+.faq-item:hover {
+    background-color: #f1f1f1; /* Slight color change on hover */
+}
