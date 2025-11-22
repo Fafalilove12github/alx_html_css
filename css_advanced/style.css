@@ -194,3 +194,47 @@ body {
         font-size: 16px; /* Smaller font for mobile */
     }
 }
+/* General Video List Styling */
+.video-list {
+    display: flex; /* Use Flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: center; /* Center align items */
+    margin: 40px 0; /* Margin above and below */
+}
+
+/* Individual Video Item Styling */
+.video-item {
+    background-color: #fff; /* Background color for each video item */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    margin: 15px; /* Margin around each video item */
+    overflow: hidden; /* Ensure rounded corners stay inside */
+    width: calc(30% - 30px); /* Three items per row with spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Video Thumbnail Styling */
+.video-item img {
+    width: 100%; /* Full width of the item */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Video Title Styling */
+.video-title {
+    padding: 15px; /* Padding inside item */
+    font-size: 18px; /* Title font size */
+    color: #333; /* Dark text color */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .video-item {
+        width: calc(45% - 30px); /* Two items per row on tablet */
+    }
+}
+
+@media (max-width: 480px) {
+    .video-item {
+        width: calc(100% - 30px); /* One item per row on mobile */
+    }
+}
