@@ -63,3 +63,94 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+/* Header Styling */
+header {
+    background-color: #000; /* Replace with actual header color if different */
+    height: 80px; /* Adjust as per design */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: #fff; /* Text color */
+}
+
+header .logo {
+    font-size: 24px; /* Adjust as per design */
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+/* Banner Styling */
+#banner {
+    background-image: url('path/to/banner-image.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff; /* Text color for the banner */
+}
+
+#banner h1 {
+    font-size: 48px; /* Adjust as per design */
+    margin: 0;
+}
+
+#banner p {
+    font-size: 20px; /* Adjust as per design */
+    margin: 10px 0 20px;
+}
+
+#banner .cta-button {
+    background-color: #ff0000; /* Example button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Adjust as per design */
+}
+
+/* Adjustments for team members */
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%; /* Circular images */
+    width: 100px; /* Adjust as required */
+    height: 100px; /* Maintain aspect ratio */
+}
+
+.team-member h3 {
+    margin: 10px 0 0;
+    font-size: 18px; /* Adjust as per design */
+}
+
+.team-member p {
+    font-size: 14px; /* Adjust as per design */
+    color: #aaa; /* Subtle color for roles */
+}
