@@ -154,3 +154,43 @@ nav li {
     font-size: 14px; /* Adjust as per design */
     color: #aaa; /* Subtle color for roles */
 }
+
+/* General Quote Styling */
+.quote-section {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 40px 20px; /* Padding for spacing */
+    text-align: center; /* Centered text */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0; /* Margin for separation from other sections */
+}
+
+/* Quote Text Styling */
+.quote-text {
+    font-size: 24px; /* Font size */
+    font-style: italic; /* Italic style for quotes */
+    color: #333; /* Dark color for readability */
+    margin: 0 0 20px; /* Margin below quote text */
+}
+
+/* Quote Author Styling */
+.quote-author {
+    font-size: 18px; /* Author name font size */
+    font-weight: bold; /* Bold style for emphasis */
+    color: #555; /* Slightly lighter color */
+}
+
+/* Centralization of Common Styles */
+body {
+    font-family: 'Arial, sans-serif'; /* Base font for consistency */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .quote-text {
+        font-size: 20px; /* Smaller font for mobile */
+    }
+
+    .quote-author {
+        font-size: 16px; /* Smaller font for mobile */
+    }
+}
