@@ -353,3 +353,45 @@ body {
 .faq-item:hover {
     background-color: #f1f1f1; /* Slight color change on hover */
 }
+/* General Footer Styling */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    padding: 40px 20px; /* Padding for spacing */
+    text-align: center; /* Center align text */
+}
+
+/* Footer Links Section */
+.footer-links {
+    margin: 20px 0; /* Margin above and below links */
+}
+
+.footer-links a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* No underline */
+    margin: 0 15px; /* Margin between links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.footer-links a:hover {
+    color: #ff0000; /* Highlight color on hover */
+}
+
+/* Footer Copyright Section */
+.footer-copyright {
+    font-size: 14px; /* Smaller font size for copyright */
+    color: #ccc; /* Lighter color for copyright text */
+    margin-top: 20px; /* Margin above copyright text */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .footer-links {
+        display: block; /* Stack links on smaller screens */
+        margin: 10px 0; /* Adjust margin for stacking */
+    }
+
+    .footer-links a {
+        margin: 5px 0; /* Vertical margin for stacked items */
+    }
+}
