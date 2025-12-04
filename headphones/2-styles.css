@@ -1,0 +1,49 @@
+/* Styles for the Our Results section */
+.our-results {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.results-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.result-item {
+    flex: 1 1 30%; /* Adjust based on your layout needs */
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.result-item i {
+    font-size: 3rem; /* Adjust icon size */
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.result-item h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.result-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .result-item {
+        flex: 1 1 100%; /* Stack results on smaller screens */
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
