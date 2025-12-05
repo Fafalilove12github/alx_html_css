@@ -1,0 +1,51 @@
+/* Styles for the Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+.hamburger {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Show hamburger on mobile */
+@media (max-width: 480px) {
+    .nav-links {
+        display: none; /* Hide links initially */
+        flex-direction: column; /* Stack links on top of each other */
+        position: absolute;
+        background-color: #333;
+        top: 60px; /* Adjust based on navbar height */
+        right: 0;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex; /* Show menu when active */
+    }
+
+    .hamburger {
+        display: block; /* Show hamburger icon on mobile */
+    }
+}
