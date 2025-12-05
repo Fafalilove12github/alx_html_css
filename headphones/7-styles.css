@@ -1,0 +1,30 @@
+/* Styles for animations in the "What We Do" and "Our Results" sections */
+.service,
+.result-item {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.9; /* Initial opacity */
+}
+
+/* Animation on hover */
+.service:hover,
+.result-item:hover {
+    transform: scale(1.05) rotate(2deg); /* Scale and rotate */
+    opacity: 1; /* Full opacity */
+}
+
+/* Optional continual animation */
+.service,
+.result-item {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Other styles remain the same */
